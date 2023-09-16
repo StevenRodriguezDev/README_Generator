@@ -7,42 +7,65 @@ const questions = [
   //title
   {
     type: "input",
-    message: "What is the name of your project",
+    message: "What is the name of your project?:",
     name: "title",
   },
   //##description
   {
     type: "input",
-    message: "What was your motivation",
+    message: "Please Provide a description of your project: ",
     name: "description",
+  },
+  {
+    type: "input",
+    message: "what was your motivation behind your project?: ",
+    name: "description2",
   },
   //##installation
   {
     type: "input",
-    message: "What is your name?",
-    name: "installation instructions",
+    message:
+      "Please Provide a step-by-step description of how to get the development environment running.: ",
+    name: "installation",
   },
+  //##usage
   {
     type: "input",
-    message: "What is your name?",
-    name: "usage information",
+    message: "Include screenshots, Examples, link using a relative filepath: ",
+    name: "usage",
   },
+  //##credits
   {
     type: "input",
-    message: "What is your name?",
-    name: "contribution guidelines",
+    message:
+      "List your collaborators, if any, with links to their GitHub profiles.: ",
+    name: "credits",
   },
+  //GitHub username,
   {
     type: "input",
-    message: "What is your name?",
-    name: "test instructions",
+    message: "Provide Github URL: ",
+    name: "github",
+  },
+  //email address,
+  {
+    type: "input",
+    message: "Provide Email address?: ",
+    name: "email",
+  },
+  //license,
+  {
+    type: "list",
+    message: "Choose a license for your project: ",
+    name: "license",
+    choices: ["MIT License", "BSD License", "GNU License"],
   },
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {
+function createFile(fileName, data) {
   const myMarkdown = generateMarkdown(data);
-  fs.writeToFile(fileName, myMarkdown, (err) => {
+  fs.writeFile(fileName, myMarkdown, (err) => {
     if (err) {
       console.log(err);
     } else {
@@ -52,7 +75,11 @@ function writeToFile(fileName, data) {
 }
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+  inquirer.prompt(questions).then((data) => {
+    createFile("./output/README.md", data);
+  });
+}
 
 // Function call to initialize app
 init();
