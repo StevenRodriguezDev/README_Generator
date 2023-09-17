@@ -1,46 +1,47 @@
+# My readme
 
-# <test3>
+## Description
 
-##  Description
+- to make a readme file
 
-- test3
-
-- no
+- to be able to make a read me file anytime
 
 ## Table of Contents (Optional)
 
-- 1. [Installation](#1.)
-- 2. [Usage](#2.)
-- 3. [Credits](#3.)
-- 4. [Github](#4.)
-- 5. [Email](#5.)
-- 6. [License](#6.)
+- [installation](#1.)
+- [usage](#2.)
+- [credits](#3.)
+- [github](#4.)
+- [email](#5.)
+- [license](#6.)
 
 ## 1. Installation
 
-- yes
+- ok
 
 ## 2. Usage
 
 To add a screenshot, create an assets/images folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
 
     ![alt text](assets/images/screenshot.png)
-    
+
 link to your website
-n/a
+my screenshot
 
 ## 3. Credits
 
--  n/a
-- 4. n/a
-- 5. n/a
+- me
 
+## 4. Github
+
+- My Github link: [my url]
+
+## 5. Email
+
+- My Email: my eamialll
 
 ## 6. License
 
- If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
+If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
 
---- - MIT License
-  
-  
-
+--- - none
