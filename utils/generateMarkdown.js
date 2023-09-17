@@ -1,6 +1,16 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+function renderLicenseBadge(license) {
+  if (license === "MIT") {
+    return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
+  } else if (license === "BSD") {
+    return "[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)";
+  } else if ("GNU") {
+    return "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)";
+  } else {
+    return "![Static Badge](https://img.shields.io/badge/No_License-red)";
+  }
+}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
@@ -17,7 +27,7 @@ function generateMarkdown({
   title,
   description,
   description2,
-  installation,
+  Installation,
   usage,
   credits,
   github,
@@ -25,8 +35,7 @@ function generateMarkdown({
   license,
 }) {
   return `
-# <${title}>
-
+# ${title}
 ##  Description
 
 - ${description}
@@ -35,16 +44,16 @@ function generateMarkdown({
 
 ## Table of Contents (Optional)
 
-- 1. [Installation](#1.)
-- 2. [Usage](#2.)
-- 3. [Credits](#3.)
-- 4. [Github](#4.)
-- 5. [Email](#5.)
-- 6. [License](#6.)
+ * [Installation](#Installation)
+ * [Usage](#usage)
+ * [Credits](#credits)
+ * [Github](#github)
+ * [Email](#email)
+ * [License](#license)
 
 ## 1. Installation
 
-- ${installation}
+- ${Installation}
 
 ## 2. Usage
 
@@ -69,7 +78,7 @@ ${usage}
 
  If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
 
---- - ${license}
+--- - ${renderLicenseBadge(license)}
   
   
 
