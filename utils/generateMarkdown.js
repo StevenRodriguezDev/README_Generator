@@ -27,7 +27,7 @@ function generateMarkdown({
   title,
   description,
   description2,
-  Installation,
+  installation,
   usage,
   credits,
   github,
@@ -44,7 +44,7 @@ function generateMarkdown({
 
 ## Table of Contents (Optional)
 
- * [Installation](#Installation)
+ * [Installation](#installation)
  * [Usage](#usage)
  * [Credits](#credits)
  * [Github](#github)
@@ -53,7 +53,7 @@ function generateMarkdown({
 
 ## 1. Installation
 
-- ${Installation}
+- ${installation}
 
 ## 2. Usage
 
