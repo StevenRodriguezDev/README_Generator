@@ -7,7 +7,7 @@ const questions = [
   //title
   {
     type: "input",
-    message: "What is the name of your project?:",
+    message: "What is the name of your project: ",
     name: "title",
   },
   //##description
@@ -18,14 +18,14 @@ const questions = [
   },
   {
     type: "input",
-    message: "what was your motivation behind your project?: ",
+    message: "what was your motivation behind your project: ",
     name: "description2",
   },
   //##installation
   {
     type: "input",
     message:
-      "Please Provide a step-by-step description of how to get the development environment running.: ",
+      "Please Provide a step-by-step description of how to get the development environment running: ",
     name: "installation",
   },
   //##usage
@@ -58,7 +58,7 @@ const questions = [
     type: "list",
     message: "Choose a license for your project: ",
     name: "license",
-    choices: ["MIT License", "BSD License", "GNU License"],
+    choices: ["MIT", "BSD", "GNU", "none"],
   },
 ];
 
@@ -69,7 +69,9 @@ function createFile(fileName, data) {
     if (err) {
       console.log(err);
     } else {
-      console.log("Thank you! Generating your README.md file!....");
+      console.log(
+        "Thank you! your README.md file is in the output folder!...."
+      );
     }
   });
 }
