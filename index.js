@@ -44,6 +44,11 @@ const questions = [
   //GitHub username,
   {
     type: "input",
+    message: "Provide Github UserName: ",
+    name: "githubUser",
+  },
+  {
+    type: "input",
     message: "Provide Github URL: ",
     name: "github",
   },
