@@ -1,47 +1,48 @@
-# My readme
 
-## Description
+# Generated README.md File
+##  Description
 
-- to make a readme file
+- Testing a read me file generator
 
-- to be able to make a read me file anytime
+- To test my README file generator to be able to use on my own projects
 
 ## Table of Contents (Optional)
 
-- [installation](#1.)
-- [usage](#2.)
-- [credits](#3.)
-- [github](#4.)
-- [email](#5.)
-- [license](#6.)
+ * [Installation](#Installation)
+ * [Usage](#usage)
+ * [Credits](#credits)
+ * [Github](#github)
+ * [Email](#email)
+ * [License](#license)
 
 ## 1. Installation
 
-- ok
+- undefined
 
 ## 2. Usage
 
 To add a screenshot, create an assets/images folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
 
     ![alt text](assets/images/screenshot.png)
-
+    
 link to your website
-my screenshot
+https://shields.io/badges/static-badge link to helpful page
 
 ## 3. Credits
-
-- me
+-  N/A
 
 ## 4. Github
-
-- My Github link: [my url]
+-  My Github link: [https://github.com/StevenRodriguezDev]
 
 ## 5. Email
+-  My Email: https://github.com/StevenRodriguezDev
 
-- My Email: my eamialll
 
 ## 6. License
 
-If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
+ If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
 
---- - none
+--- - [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  
+  
+
