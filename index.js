@@ -38,7 +38,7 @@ const questions = [
   {
     type: "input",
     message:
-      "List your collaborators, if any, with links to their GitHub profiles.: ",
+      "List your collaborators, if any, with links to their GitHub profiles: ",
     name: "credits",
   },
   //GitHub username,
@@ -50,7 +50,7 @@ const questions = [
   //email address,
   {
     type: "input",
-    message: "Provide Email address?: ",
+    message: "Provide Email address: ",
     name: "email",
   },
   //license,
