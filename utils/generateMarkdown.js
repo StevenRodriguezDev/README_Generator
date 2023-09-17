@@ -30,6 +30,7 @@ function generateMarkdown({
   installation,
   usage,
   credits,
+  githubUser,
   github,
   email,
   license,
@@ -68,7 +69,7 @@ ${usage}
 -  ${credits}
 
 ## 4. Github
--  My Github link: [${github}]
+-  My Github link: [${githubUser}](${github})
 
 ## 5. Email
 -  My Email: ${email}
@@ -76,7 +77,7 @@ ${usage}
 
 ## 6. License
 
- If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
+If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
 
 --- - ${renderLicenseBadge(license)}
   
