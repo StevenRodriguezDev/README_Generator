@@ -21,17 +21,10 @@ const questions = [
     message: "what was your motivation behind your project: ",
     name: "description2",
   },
-  //##installation
-  {
-    type: "input",
-    message:
-      "Please Provide a step-by-step description of how to get the development environment running: ",
-    name: "installation",
-  },
   //##usage
   {
     type: "input",
-    message: "Include screenshots, Examples, link using a relative filepath: ",
+    message: "Provide screenshots, Examples or links showcasing your project",
     name: "usage",
   },
   //##credits
