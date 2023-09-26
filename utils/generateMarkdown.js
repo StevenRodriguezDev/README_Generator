@@ -64,7 +64,7 @@ ${usage}
 ## 4. Github
 -  My Github link: [${githubUser}](${github})
 
-## 5. Email
+## 5. Contact me via Email
 -  My Email: ${email}
 
 
