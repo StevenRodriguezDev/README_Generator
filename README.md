@@ -11,6 +11,7 @@
 - [Usage](#usage)
 - [Github](#github)
 - [Email](#email)
+- [credits](#credits)
 - [License](#license)
 
 ## 1. Installation
@@ -31,6 +32,21 @@
 
 - My Email: stevenrodriguezdev@gmail.com
 
+
+
 ## 6. License
 
 --- - Your license N/A
+## credits
+- readme guide
+  https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
+  
+- Static Badges
+  https://shields.io/badges/static-badge
+
+- Basic Writing Formatting Syntax
+  https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+
+- Markdown Badge License
+
+   https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
