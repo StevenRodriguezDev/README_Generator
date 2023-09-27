@@ -1,10 +1,10 @@
 
-# This an example for readme generator 
+# SVG-Logo-Maker
 ##  Description
 
-- This project is to demonstrate a generated readme file
+- A  Node.js command-line application that takes in user input to generate a logo and save it as an SVG file
 
-- my motivation was to be able to easily make readme files for future projects
+- My motivation is that I  want to be able to generate my own SVG logos without the need to pay for a designer
 
 ## Table of Contents (Optional)
 
@@ -22,10 +22,10 @@ To add a screenshot, create an assets/images folder in your repository and uploa
     ![alt text](assets/images/screenshot.png)
     
 link to your website
-n/a
+N/A
 
 ## 3. Credits
--  myself
+-  N/A
 
 ## 4. Github
 -  My Github link: [stevenrodriguezdev](https://github.com/StevenRodriguezDev)
